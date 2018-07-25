@@ -1,24 +1,25 @@
-# README
+# The Hacking Class
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Version Ruby: 2.5.1
 
-* System dependencies
 
-* Configuration
+Exécuter l'installation du bundle
 
-* Database creation
+Run rails db: migrer pour obtenir toutes les mises à jour nécessaires
 
-* Database initialization
+Run rails db: seeds pour obtenir la base de données par défaut
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+## Membres du Groupe
+
+
+<a href="https://github.com/Careless-Whisper">Maï Lan</a><br> 
+<a href="https://github.com/jjeleven11">Jeremie Edery</a><br> 
+<a href="https://github.com/Hadia22/">Hadia Bouria</a><br> 
+<a href="https://github.com/R2D21">Rémi Boivin</a><br> 
+<a href="https://github.com/bbpucca">Valérie Chang</a><br> 
