@@ -15,16 +15,16 @@ ActiveRecord::Schema.define(version: 2018_07_25_201059) do
   create_table "courses", force: :cascade do |t|
     t.string "title"
     t.text "content"
-    t.integer "studient_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["studient_id"], name: "index_courses_on_studient_id"
   end
 
   create_table "students", force: :cascade do |t|
     t.string "name"
+    t.integer "course_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["course_id"], name: "index_students_on_course_id"
   end
 
 end

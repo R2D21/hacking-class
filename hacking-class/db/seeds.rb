@@ -1,13 +1,13 @@
 require "faker"
 15.times do
-  studient = Student.create(
-          name: Faker::MostInterestingManInTheWorld.quote
+  Student.create(
+          name: Faker::Name.name
 )
-        new_course = Course.create(
-                title: Faker::DragonBall.character,
-	               content: Faker::ChuckNorris.fact,
-                 studient_id: rand((Student.first.id)..(Student.last.id))
-	)
+  #       Course.create(
+  #               title: Faker::DragonBall.character,
+	#                content: Faker::ChuckNorris.fact,
+  #                student_id: rand((Student.first.id)..(Student.last.id))
+	# )
 
 
 end

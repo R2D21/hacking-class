@@ -3,7 +3,6 @@ class CreateCourses < ActiveRecord::Migration[5.2]
     create_table :courses do |t|
       t.string :title
       t.text :content
-      t.belongs_to :studient, index: true
       t.timestamps
     end
   end
