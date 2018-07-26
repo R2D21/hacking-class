@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="the-hacking-Class">The Hacking Pinterest</h1>
+<h1 id="the-hacking-Class">The Hacking Class</h1>
 <p>Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.</p>
 <p>Tu as besoin de :</p>
 <ul>
